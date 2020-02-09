@@ -10,5 +10,10 @@
     <bean id="musicBean"
           class="ru.java.course.SpringPractice.ClassicalMusic">
     </bean>
+    <bean id="musicPlayer"
+          class="ru.java.course.SpringPractice.MusicPlayer">
+        <property name="music" ref="musicBean"/>
+    </bean>
+
 
 </beans>
