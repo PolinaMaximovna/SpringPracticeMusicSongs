@@ -13,6 +13,8 @@
     <bean id="musicPlayer"
           class="ru.java.course.SpringPractice.MusicPlayer">
         <property name="music" ref="musicBean"/>
+        <property name="name" value="some name"/>
+        <property name="volume" value="50"/>
     </bean>
 
 
