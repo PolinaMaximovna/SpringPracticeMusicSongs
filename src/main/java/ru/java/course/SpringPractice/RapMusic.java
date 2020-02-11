@@ -1,8 +1,8 @@
 package ru.java.course.SpringPractice;
 
-public class ClassicalMusic implements Music {
+public class  RapMusic implements  Music{
     @Override
     public String getSong() {
-        return ("   2Chellos");
+        return ("   Faravell");
     }
 }
